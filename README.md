@@ -20,4 +20,4 @@ Dark Theme For Bracket Coding Masters!
 
 
 <h1><b>Support My Work</b></h1>
-<h2><a href='https://www.paypal.me/Donmi'>Donate</a></h2>
+<h2><a href='https://www.paypal.me/Donmi' target='_blank'>Donate</a></h2>
