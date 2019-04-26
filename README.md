@@ -17,3 +17,7 @@ Dark Theme For Bracket Coding Masters!
 <img src="https://user-images.githubusercontent.com/46109987/56797253-59222780-6825-11e9-8aac-c45a27472e69.png" />
 
 
+
+
+<h1><b>Support My Work</b></h1>
+<h2><a href='https://www.paypal.me/Donmi'>Donate</a></h2>
