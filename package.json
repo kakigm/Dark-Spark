@@ -1,0 +1,15 @@
+{
+    "name": "Dark-Spark",
+    "title": "Dark-Spark",
+    "description": "Dark Theme For Bracket Coding Masters!",
+    "homepage": "https://github.com/yourname/my-shiny-theme",
+    "version": "1.0",
+    "author": "Wild Toast",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}

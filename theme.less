@@ -1,0 +1,166 @@
+/* Dark-Spark Theme */
+
+
+@background: #252525;
+@foreground: #eaeaea;
+@lighter-bg: #30393c;
+
+@white: #F7F7F7;
+@black: #0a0a0a;
+@gray: #737373;
+@orange: #e89731;
+@blue: #41add6;
+@green: #1de677;
+@red: #ef4d3d;
+
+@string: #21afda;
+@matching: #cecece;
+@search: #fffbdf;
+@search_match: #f5dc29;
+@cursor: #eee;
+@white_space: #8e8e93;
+@error: #ef4d3d;
+
+
+.CodeMirror,
+.CodeMirror-scroll {
+     background-color: @background;
+     color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+     background: @lighter-bg;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+     box-shadow: inset 15px 0 0 0 @black;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+     .CodeMirror-gutter-elt {
+          background: @lighter-bg;
+          color: @blue;
+     }
+
+     .inline-widget .CodeMirror-gutter-elt {
+          color: #5d5d5d;
+     }
+}
+
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr {
+     color: @blue;
+}
+
+.cm-number,
+.cm-attribute,
+.cm-plus {
+     color: @orange;
+}
+
+.cm-def,
+.cm-property {
+     color: @white;
+}
+
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3 {
+     color: @red;
+}
+
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+     color: @foreground;
+}
+
+.cm-comment {
+     color: #7d7d6e;
+}
+
+.cm-error,
+.cm-minus {
+     color: @error;
+}
+
+.cm-header {
+     color: @red;
+}
+
+.cm-link {
+     color: #ce78b7;
+     text-decoration: none;
+}
+
+.cm-rangeinfo {
+     color: #9c52c1;
+}
+
+
+.cm-tag {
+     color: @orange;
+}
+
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-quote {
+     color: @green;
+}
+
+.CodeMirror-searching {
+     background-color: @search;
+
+     &.searching-current-match {
+          background-color: @search_match;
+     }
+}
+
+.CodeMirror-cursor {
+     border-left: 1px solid @cursor  !important;
+}
+
+.CodeMirror-gutters {
+     background-color: @background;
+     border-right: none;
+}
+
+.CodeMirror-linenumber {
+     color: @foreground;
+}
+
+.CodeMirror .CodeMirror-selected {
+     background: #3e6273;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+     background: #284350;
+}
+
+.CodeMirror-matchingbracket {
+     background-color: #caa43b;
+     color: @white  !important;
+}
+
+.CodeMirror-matchingtag {
+     background-color: #4e4e3e;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+     border-left: none !important;
+     border-bottom: 1px solid @white;
+}
+
+/* Non-editor styling */
+
+.image-view,
+.not-editor {
+     background-color: @background;
+}
+
+.view-pane .image-view {
+     color: @foreground;
+}
